@@ -1,0 +1,116 @@
+.bg-color-blue
+{
+	background-color:DodgerBlue;
+	color:white;
+}
+
+.carousel-indicators
+{
+	bottom:-100px;
+}
+
+.carousel-indicators .active {
+	background-color:DodgerBlue;
+}
+
+.carousel-indicators li{
+	border-color:DodgerBlue;
+}
+
+#cenditel .col-md-4
+{
+	border: 2px solid DodgerBlue;
+	border-radius: 5px;
+}
+
+.img-circle
+{
+	width:140px;
+	height:140px;
+}
+
+.img-rounded
+{
+	width:400px;
+	height:380;
+}
+
+#gracias
+{
+	border-radius:50%;
+	background-color:DodgerBlue;
+	color:white;
+	width:140px;
+	height:140px;
+}
+
+#gracias h3
+{
+	text-align:center;
+	padding-top:55px;
+}
+
+b
+{
+	font-size:18px;
+}
+
+footer
+{
+	padding: 10px 5px 5px 5px;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 500px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: DodgerBlue;
+}
+
+hr.star-light:after {
+    color: DodgerBlue;
+	background-color:#fff;
+}
+
+hr.star-primary {
+    border-color: DodgerBlue;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0.3,0); 
+    background-color: SkyBlue;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background-color: DodgerBlue;
+
+}
